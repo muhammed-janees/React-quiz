@@ -79,3 +79,15 @@ body {
     gap: 10px;
   }
   
+
+  @media (max-width: 768px) {
+    .quiz-container {
+        width: 75%;
+        height: 300px;
+    }
+
+    .button-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
